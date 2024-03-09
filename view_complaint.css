@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(241, 174, 222);
+}
+
+.container {
+    margin: 5% 10% 0% 10%;
+    position: absolute;
+    width: 80%;
+}
+
+.card {
+    border: 1px solid aliceblue;
+    background-color: aliceblue;
+    border-radius: 2%;
+    padding: 1px;
+    margin-top: 50px;
+}
+
+.card-body {
+    padding-top: 10px;
+    margin: 10px;
+    padding-bottom: 10px;
+}
+
+.nav {
+    margin: 0% 1% 0% 1%;
+}
+
+.left-nav {
+    float: left;
+}
+
+.right-nav {
+    float: right;
+}
+
+.right-nav li {
+    display: inline;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    outline: 1px solid black;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.right-nav li:hover {
+    background-color: rgb(241, 141, 213);
+}
+
+.right-nav li a {
+    display: block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
